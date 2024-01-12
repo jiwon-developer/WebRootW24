@@ -12,7 +12,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/webresource.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -20,64 +22,131 @@
 
     <h1 class="title"> Web Resources </h1>
     
-    <div class="top">
+    <!-- <div class="top">
       <a  href="#a">MDN</a> 
       <a href="#b">W3School</a> 
       <a href="#c">Stack Overflow</a>
       <a href="#d">CSS Tricks</a>
       <a href="#e">GitHub</a>
       <a href="../index.html">Main</a>
-    </div>
-    <div class="card text-center">
-      <div class="card-header">
-        <ul class="nav nav-pills card-header-pills">
-          <li class="nav-item">
-            <a class="nav-link Active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MDN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">W3School</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Stack Overflow</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Main</a>
-          </li>
-        </ul>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
+    </div> -->
+
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+        <button class="nav-link active" id="menu1-tab" data-bs-toggle="tab" data-bs-target="#menu1-tab-pane" type="button" role="tab" aria-controls="menu1-tab-pane" aria-selected="true">MDN</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+        <button class="nav-link" id="menu2-tab" data-bs-toggle="tab" data-bs-target="#menu2-tab-pane" type="button" role="tab" aria-controls="menu2-tab-pane" aria-selected="false">CSS-Tricks</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+        <button class="nav-link" id="menu3-tab" data-bs-toggle="tab" data-bs-target="#menu3-tab-pane" type="button" role="tab" aria-controls="menu3-tab-pane" aria-selected="false">W3School</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+        <button class="nav-link" id="menu4-tab" data-bs-toggle="tab" data-bs-target="#menu4-tab-pane" type="button" role="tab" aria-controls="menu4-tab-pane" aria-selected="false" >FreeCodeCamp</button>
+      </li>
+
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="menu5-tab" data-bs-toggle="tab" data-bs-target="#menu5-tab-pane" type="button" role="tab" aria-controls="menu5-tab-pane" aria-selected="false" >Font Awesome</button>
+      </li>
+      <li>
+        <button class="nav-link" ><a href="../index.html">Main</a></button>
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">1</div>
-      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">2</div>
-      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">3.</div>
-      <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">4</div>
+      <div class="tab-pane fade show active" id="menu1-tab-pane" role="tabpanel" aria-labelledby="menu1-tab" tabindex="0">
+        <div class="card-body" style="padding: 10px; margin: 20px;">
+          <h4 class="card-title">MDN-Web</h4>
+          <p class="card-text"> 
+            <h6>Summery</h6>
+             <ul>
+              <li> Resource Comprehensive documentation on HTML, CSS, JavaScript, and more.</li>
+              <li> Essential for understanding web technologies, syntax, and browser compatibility.</li>
+              <li> Target Audience: Beginner to advanced developers.</li>
+              <li> Impact on Career: Fundamental knowledge foundation for building web applications.</li>
+             </ul>
+             <h6>Rating </h6>
+             <p>4.5/5</p>
+           </p>
+          <a href="https://developer.mozilla.org/en-US/"  target="_blank" class="btn btn-primary">Go site</a>
+        </div>
+      </div>
+ 
+      
+      <div class="tab-pane fade" id="menu2-tab-pane" role="tabpanel" aria-labelledby="menu2-tab" tabindex="0">
+        <div class="card-body" style="padding: 10px; margin: 20px;">
+          <h4 class="card-title">CSS-Tricks</h4>
+          <p class="card-text"> 
+            <h6>Summery</h6>
+             <ul>
+              <li> Articles and tutorials on web development, design, and best practices.</li>
+              <li> In-depth insights into design trends, coding techniques, and industry standards.</li>
+              <li> Target Audience: Designers and developers looking for in-depth articles.</li>
+              <li> Impact on Career: keep me informed about industry trends and best practices.</li>
+             </ul>
+             <h6>Rating </h6>
+             <p>4/5</p>
+           </p>
+          <a href="https://css-tricks.com/"  target="_blank" class="btn btn-primary">Go site</a>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="menu3-tab-pane" role="tabpanel" aria-labelledby="menu3-tab" tabindex="0">
+        <div class="card-body" style="padding: 10px; margin: 20px;">
+          <h4 class="card-title">W3School</h4>
+          <p class="card-text"> 
+            <h6>Summery</h6>
+             <ul>
+              <li> Tutorials and references on various web technologies</li>
+              <li> Beginner-friendly, hands-on tutorials covering HTML, CSS, JavaScript, and more..</li>
+              <li> Target Audience: Beginners and intermediate developers.</li>
+              <li> Impact on Career: Excellent starting point for building foundational skills.</li>
+             </ul>
+             <h6>Rating  </h6>
+             <p>4/5</p>
+           </p>
+          <a href="https://www.w3schools.com/" target="_blank" class="btn btn-primary">Go site</a>
+        </div>
+      </div>
+  
+
+      <div class="tab-pane fade" id="menu4-tab-pane" role="tabpanel" aria-labelledby="menu4-tab" tabindex="0">
+        <div class="card-body" style="padding: 10px; margin: 20px;">
+          <h4 class="card-title">FreeCodeCamp</h4>
+          <p class="card-text"> 
+            <h6>Summery</h6>
+             <ul>
+              <li> Interactive coding challenges, projects, and certifications.</li>
+              <li> Provides hands-on coding practice with a focus on real-world projects..</li>
+              <li> Target Audience: Beginners and intermediate developers.</li>
+              <li> Impact on Career: Builds a strong portfolio through real projects and certifications.</li>
+             </ul>
+             <h6>Rating </h6>
+             <p>4.5/5</p>
+           </p>
+          <a href="https://www.freecodecamp.org/" target="_blank"  class="btn btn-primary">Go site</a>
+        </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="menu5-tab-pane" role="tabpanel" aria-labelledby="menu5-tab" tabindex="0">
+        <div class="card-body" style="padding: 10px; margin: 20px;">
+          <h4 class="card-title">Font Awesome</h4>
+          <p class="card-text"> 
+            <h6>Summery</h6>
+             <ul>
+              <li> Font-based icon library with scalable vector icons available in various styles.</li>
+              <li> Valuable for web developers and designers to easily add customizable icons using CSS, enhancing UI design</li>
+              <li> Target Audience: Web developers and designers seeking a convenient solution for incorporating high-quality icons.</li>
+              <li> Impact on Career: Improves efficiency, scalability, and modern UI design in web applications, contributing positively to your development projects.</li>
+             </ul>
+             <h6>Rating </h6>
+             <p>4.5/5</p>
+           </p>
+          <a href="https://fontawesome.com/"  target="_blank" class="btn btn-primary">Go site</a>
+        </div>
+      </div>
+
     </div>
-    <ol>
+    <!-- <ol>
       
       <li>
         <div id="a">
@@ -129,9 +198,8 @@
         </p>
         </div>
       </li>
-    </ol>
+    </ol> -->
   </div>
-    
   </body>
 </html>
 
